@@ -1,0 +1,947 @@
+@font-face {
+    font-family:segoe;
+    src: url(./assets/segoeuil.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 100%;
+    font-family: segoe;
+
+}
+
+/*NAVEGAÇÃO*/
+
+header .container{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #2571B7;
+}
+
+header nav{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 100px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    margin-right: 80px;
+}
+
+header nav ul a:hover{
+    color: rgb(211, 211, 211);
+    transition: .5s;
+}
+
+header .logo{
+    margin: 30px 152px;
+}
+
+.botaotop {
+    background-color: #002050;
+    border: none;
+    cursor: pointer;
+    margin: 10px 5px 5px 481px;
+    display: flex;
+}
+
+    .botaotop a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 15px 22px;
+    font-size: 25px;
+    display: none;
+}
+
+/*NAVBAR*/
+
+.checkbtn{
+    font-size: 30px;
+	color: white;
+	float: left;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+
+#check{
+    display: none;
+}
+
+/*CABEÇALHO*/
+
+.botao1{
+    background-color: #002050;
+    border: none;
+    padding: 10px 5px;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+main .inicial{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.70)100%), url(./assets/ballpen-blur-close-up-461077.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 105vh;
+}
+
+main .container{
+    color: white;
+    font-size: 40px;
+    padding: 220px 0px 0px 133px;
+    font-size: 60px;
+}
+
+main .container p{
+    padding-top: 25px;
+    font-size: 35px;
+}
+
+.botao2{
+    background-color: #00A4EF;
+    border: none;
+    padding: 20px 60px;
+    margin-top: 105px;
+    cursor: pointer;
+}
+
+main .container a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+main .setaDown {
+    position: absolute;
+    left: 125px;
+    bottom: -125px;
+}
+
+main .container2 {
+    position: absolute;
+    bottom: -100px;
+    right: 125px;
+}
+
+/*PRIMEIRO TEXTO*/
+
+main .container3{
+    margin: 100px 100px 20px 100px;
+    text-align: center;
+    font-size:larger;
+    color: #757575;
+}
+
+main .primeiroParagrafo{
+    margin-bottom: 20px;
+}
+
+main .segundoParagrafo{
+    margin-bottom: 0px;
+}
+
+main .container3 h1{
+    color: #2370B6;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+main .container3 a{
+    color: #F25123;
+}
+
+/*COLUNAS*/
+
+.coluna{
+    text-align: center;
+}
+
+.colunaEsquerda{
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    text-align: left;
+}
+
+.colunaDireita{
+    display: inline-block;  
+    font-size: 13px;
+    color: white;
+    text-align: left;
+}
+
+.colunaEsquerda .primeira{
+    background-color: #0072C6;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+.colunaEsquerda .segunda{
+    background-color: #207245;
+    padding: 15px;
+    margin: 30px 5px;;
+}
+
+.colunaEsquerda .terceira{
+    background-color: #733781;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+.colunaEsquerda .quarta{
+    background-color: #094AB2;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+.colunaEsquerda .quinta{
+    background-color: #0093BE;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+.colunaDireita .primeira{
+    background-color: #2C5898;
+    margin: 30px 5px;
+    padding: 15px;
+}
+
+.colunaDireita .segunda{
+    background-color: #CB4A32;
+    margin: 30px 5px;
+    padding: 15px;
+}
+
+.colunaDireita .terceira{
+    background-color: #00AFF0;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+.colunaDireita .quarta{
+    background-color: #0073C6;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+.colunaDireita .quinta{
+    background-color: #5558AF;
+    padding: 15px;
+    margin: 30px 5px;
+}
+
+/*CLIENTES*/
+
+.container4h1{
+    color: #2370B6;
+    font-size: 50px;
+    text-align: center;
+}
+
+.links{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.imagem1, .imagem2, .imagem3{
+    max-width: 450px;
+    padding: 50px;
+    text-align: center;
+}
+
+.shield {
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 57px;
+    background-color: #7FBA00;
+    width: 190px;
+    height: 180px;
+    margin-left: 86px;
+}
+
+.imagem1 h3{
+    color: #7FBA00;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.imagem1 p{
+    color: #757575;
+    border-top: solid 5px #afaeae;
+    margin: 30px;
+    padding: 30px;
+}
+
+.imagem1 .botao3{
+    border: none;
+    cursor: pointer;
+    border: 3px solid #7FBA00;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.imagem1 .botao3 a{
+   text-decoration: none;
+   color: #7FBA00;
+}
+
+.support {
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #00A4EF;
+    width: 190px;
+    height: 180px;
+    margin-left: 73px;
+}
+
+.imagem2 h3{
+    color: #00A4EF;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.imagem2 p{
+    color: #757575;
+    border-top: solid 5px #afaeae;
+    margin: 30px;
+    padding: 30px;
+}
+
+.imagem2 .botao3{
+    border: none;
+    cursor: pointer;
+    border: 3px solid #00A4EF;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.imagem2 .botao3 a{
+   text-decoration: none;
+   color: #00A4EF;
+}
+
+.mouse {
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FFB900;
+    width: 190px;
+    height: 180px;
+    margin-left: 80px;
+}
+
+.imagem3 h3{
+    color: #FFB900;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.imagem3 p{
+    color: #757575;
+    border-top: solid 5px #afaeae;
+    margin: 30px;
+    padding: 30px;
+}
+
+.imagem3 .botao3{
+    border: none;
+    cursor: pointer;
+    border: 3px solid #FFB900;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.imagem3 .botao3 a{
+   text-decoration: none;
+   color: #FFB900;
+}
+
+/*SEGUNDO TEXTO*/
+
+.texto{
+    color: #757575;
+    padding:0px 0px;
+    display: flex;
+    text-align: center;
+}
+
+.primeiroTexto, .segundoTexto, .terceiroTexto{
+    border-top: #DCDCDC solid 3px;
+    padding: 25px 100px;
+    margin: 0px 30px;
+}
+
+/*PARTE FINAL*/
+
+.container5 h1{
+    text-align: center;
+    color: #226FB6;
+    font-size: 50px;
+    padding: 50px;
+}
+
+.sessoes{
+    display: flex;
+    margin: 0px 200px 100px 200px;
+}
+
+.sessoes h1{
+    font-size: 20px;
+    color: #F24D1E;
+    padding: 30px;
+}
+
+.sessoes p{
+    font-size: 15px;
+    color: #737373;
+}
+
+.primeiraSessao, .segundaSessao, .terceiraSessao, .quartaSessao{
+    border: solid 5px #DEDEDE;
+    width: 400px;
+    height: 250px;
+    padding: 5px;
+    text-align: center;
+}
+
+.container6{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,.67),rgba(0,0,0,.67)100%), url(./assets/achievement-adult-agreement-1391373.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container6 h1{
+    font-size: 50px;
+    color: white;
+    padding: 75px;
+}
+
+/*FOOTER*/
+
+.finalPage h1{
+    color: #8B8B8B;
+    margin: 50px;
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    background-color: #E6E6E6;
+    position: absolute;
+    margin-left: 500px;
+}
+
+fieldset{
+    border-style: none;
+    padding: 25px 0px 50px 0px;
+}
+
+label{
+    margin: 50px;
+    color: #6e6e6e;
+}
+
+#loremIpsum{
+    margin: 10px 50px;
+    padding: 20px 120px;
+}
+
+.botao4{
+    margin-left: 50px;
+    background-color: #00A4EF;
+    border: none;
+    padding: 20px 115px;
+    cursor: pointer;
+}
+
+.botao4 a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+    color:white;
+}
+
+.imagens {
+    margin: 950px 0px 20px 554px;
+    display: flex;
+}
+
+.imagens .primeiraImagem{
+    margin-right: 45px;
+}
+
+.copy{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(185, 184, 184);
+    margin-bottom: 40px;
+}
+
+/*MÉDIA*/
+
+@media only screen and (max-width: 1500px) {
+    .copy{
+        margin-left: 65px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .copy {
+        margin-left: 163px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    header nav{
+        margin-right: 20px;
+    }
+    .primeiroTexto, .segundoTexto, .terceiroTexto {
+        padding: 25px 0px;
+        margin: 0px 61px;
+    }
+    .shield, .support, .mouse{
+        margin-left: 50px;
+    }
+    form {
+        margin-left: 385px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 440px;
+    }
+    .copy {
+        margin-left: 536px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    header nav ul a {
+        margin-right: 15px;
+    }
+    .sessoes h1 {
+        padding: 16px;
+    }
+    .shield, .support, .mouse{
+        margin-left: 30px;
+    }
+    form {
+        margin-left: 320px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 366px;
+    }   
+    .copy {
+        margin-left: 462px;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    header nav{
+        margin-right: 20px;
+    }
+    main .setaDown {
+        bottom: -132px;
+    }
+    main .container2 {
+    bottom: -110px;
+    right: 154px;
+    }
+    .shield, .support, .mouse{
+        margin-left: 15px;
+    }
+
+    .imagem1 p, .imagem2 p, .imagem3 p{
+         margin: 0px;
+    }
+    form {
+        margin-left: 280px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 328px;
+    }
+    .copy {
+        margin-left: 420px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header .logo {
+        margin: 25.5px 59px;
+    }
+    header nav{
+        margin-right: 20px;
+    }
+    main .container {
+        padding: 143px 0px 0px 0px;
+        text-align: center;
+    }
+    main .container2 {
+        bottom: -95px;
+    }
+    main .setaDown {
+        bottom: -120px;
+    }    
+    .sessoes {
+        margin: 0px 30px 80px 30px;
+    }
+    .imagem1, .imagem2, .imagem3 {
+        max-width: 450px;
+        padding: 45px;
+        text-align: center;
+    }
+    form {
+        margin-left: 200px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 251px;
+    }
+    .copy {
+        margin-left: 345px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    header nav{
+        margin-right: 20px;
+    }
+    main .container2{
+        left: 335px;
+        bottom: -45px;
+    }
+    .setaDown{
+        display: none;
+    }
+    .shield, .support, .mouse {
+        margin-left: 0px;
+        padding-top: 45px;
+    }
+    .imagem1, .imagem2, .imagem3 {
+        padding: 20px;
+    }
+    .imagem1 p, .imagem2 p, .imagem3 p{
+        padding: 18px;
+    }
+    form {
+        margin-left: 190px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 237px;
+    }
+    .sessoes h1 {
+        padding: 21px;
+    }
+    .checkbtn {
+        display: block;
+        margin: 0px 0px 0px 405px;
+        font-size: 50px;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 200vh;
+        background: #002050;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+        margin: 0px
+    }
+    nav ul a{
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    a:active, a:hover{
+         background: none;
+         color: #002050;
+    }
+    #check:checked  ~ ul {
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    header .logo {
+        margin: 25.5px 59px;
+        display: none;
+    }
+    .botao1{
+        display: none;
+    }
+    .checkbtn {
+        display: block;
+        margin: 0px 0px 0px 45px;
+        font-size: 50px;
+    }
+    .botaotop{
+        margin: 10px 5px 5px 505px
+    }
+    .botaotop a {
+        display: block;
+    }
+    main .container p {
+        font-size: 52px;
+    }
+    main .container3 a {
+        color: #757575;
+    }
+    main .setaDown {
+        display: none;
+    }
+    main .container2 {
+        left: 274px;
+        bottom: -105px;
+    }
+    .imagem1, .imagem2, .imagem3 {
+        max-width: 450px;
+        padding: 0px;
+        text-align: center;
+    }
+    form {
+        margin-left: 118px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 166px;
+    }
+    .shield, .support, .mouse {
+        margin-left: 0px;
+        padding: 45px;
+    }
+    .sessoes {
+        display: block;
+        margin: 0px 30px 80px 105px;
+    }
+    .primeiraSessao, .segundaSessao, .terceiraSessao, .quartaSessao {
+        width: 526px;
+        height: 300px;
+    }
+    .sessoes h1 {
+        font-size: 30px;
+    }
+    .sessoes p {
+        font-size: 23px;
+        padding: 20px;
+    }
+    .copy {
+        margin-left: 262px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .botaotop {
+        margin: 10px 5px 5px 387px;
+    }
+    .sessoes {
+        display: block;
+        margin: 0px 28px 80px 15px;
+    }
+    .primeiraSessao, .segundaSessao, .terceiraSessao, .quartaSessao {
+        margin-left: 20px;
+    }
+    .links {
+        display: block;
+        padding: 50px 25px;
+    }
+    .links section{
+        padding-bottom: 20px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 125px;
+    }
+    .imagem1, .imagem2, .imagem3 {
+        padding: 0px 0px 10px;
+        display: flex;
+        border-bottom: solid 5px #c5c3c3
+    }
+    .imagem1 h3, .imagem2 h3, .imagem3 h3{
+        margin: 30px 0px 0px 0px;
+    }
+    .imagem1 p, .imagem2 p, .imagem3 p {
+        padding: 10px 10px 10px 0px;
+        border: none;
+    }
+    .shield {
+        padding: 57px;
+        margin: 38px 25px 0px 0px;
+    }
+    .support {
+        padding: 53px;
+        margin: 38px 25px 0px 0px;
+    }
+    .mouse{
+        padding: 47px;
+        margin: 38px 25px 0px 0px;
+    }
+    .margem{
+        padding-left: 20px;
+        text-align: left;
+        
+    }
+    form {
+        margin-left: 70px;
+    }
+    
+    .copy {
+        margin-left: 220px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #loremIpsum {
+        margin: 10px 30px;
+        padding: 20px 120px;
+    }
+    .botaotop {
+        margin: 14px 5px 5px 302px;
+    }
+    .botaotop a{
+        font-size: 19px;
+    }
+    main .container2 {
+        left: 180px;
+        bottom: -468px;
+    }
+    main .container {
+        font-size: 50px;
+    }
+    main .container3 {
+        margin: 50px 50px 20px 50px;
+        font-size: 25px;
+    }
+    .sessoes {
+        margin: 0px 19px 50px 13px;
+    }
+    .primeiraSessao, .segundaSessao, .terceiraSessao, .quartaSessao {
+        margin-left: 65px;
+        width: 345px;
+    }
+    form {
+        margin-left: 15px;
+    }
+    .botao4 {
+        margin-left: 30px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 73px;
+    }
+    .copy {
+        margin-left: 168px;
+    }
+    main .inicial {
+        height: 164vh;
+    }
+}
+
+@media only screen and (max-width: 479px){
+    .botaotop {
+        margin: 10px 5px 5px 253px;
+    }
+    main .container {
+        font-size: 40px;
+    }
+    main .container p {
+        font-size: 45px;
+        padding: 0px 15px;
+    }
+    main .container2 {
+        left: 150px;
+    }
+    .sessoes {
+        margin: 0px 0px 50px 9px;
+    }
+    .container6 h1 {
+        padding: 15px;
+    }
+    form {
+        margin-left: 7px;
+    }
+    #loremIpsum {
+        margin: 10px 25px;
+        padding: 20px 120px;
+    }
+    .botao4 {
+        margin-left: 24px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 32px;
+    }
+    .copy {
+        margin-left: 127px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .botaotop {
+        margin: 14px 5px 5px 235px;
+    }
+    .botaotop a {
+        padding: 16px 16px;
+        font-size: 18px;
+    }
+    main .container2 {
+        left: 103px;
+    }
+    .shield, .support, .mouse {
+        padding: 47px;
+        margin: 79px 25px 0px 0px;
+    }
+    .margem {
+        padding-left: 0px;
+        text-align: left;
+    }
+    .primeiraSessao, .segundaSessao, .terceiraSessao, .quartaSessao {
+        margin-left: 45px;
+        width: 291px;
+        height: 259px;
+    }
+    .sessoes h1 {
+        font-size: 27px;
+    }
+    .sessoes p {
+        font-size: 19px;
+    }
+    #loremIpsum {
+        margin: 10px 22px;
+        padding: 15px 79px;
+    }
+    label {
+        margin: 23px;
+        color: #6e6e6e;
+    }
+    .botao4 {
+        margin-left: 23px;
+        padding: 16px 92px;
+    }
+    .imagens {
+        margin: 950px 0px 20px 19px;
+    }
+    .imagens .primeiraImagem {
+        margin-right: 5px;
+    }
+    .copy {
+        margin-left: 105px;
+    }
+}
