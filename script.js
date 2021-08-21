@@ -1,5 +1,5 @@
 function scrollTo(element){
-    Document.querySelector(element).scrollIntoView({behavior: "smooth"});
+    document.querySelector(element).scrollIntoView({behavior: "smooth"});
 }
 
 document.querySelector("#goToDown").addEventListener("click", function(event){

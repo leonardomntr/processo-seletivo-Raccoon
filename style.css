@@ -517,6 +517,9 @@ label{
     header nav{
         margin-right: 20px;
     }
+    header nav ul a {
+        margin-right: 50px;
+    }
     .primeiroTexto, .segundoTexto, .terceiroTexto {
         padding: 25px 0px;
         margin: 0px 61px;
@@ -538,7 +541,7 @@ label{
 
 @media only screen and (max-width: 1200px) {
     header nav ul a {
-        margin-right: 15px;
+        margin-right: 5px;
     }
     .sessoes h1 {
         padding: 16px;
@@ -701,6 +704,7 @@ label{
     }
     .botaotop a {
         display: block;
+        font-size: 20px;
     }
     main .container p {
         font-size: 52px;
@@ -753,6 +757,9 @@ label{
 @media only screen and (max-width: 700px){
     .botaotop {
         margin: 10px 5px 5px 387px;
+    }
+    .botaotop a{
+        padding: 14px 22px;
     }
     .sessoes {
         display: block;
@@ -817,8 +824,8 @@ label{
     .botaotop {
         margin: 14px 5px 5px 302px;
     }
-    .botaotop a{
-        font-size: 19px;
+    .botaotop a {
+        font-size: 16px;
     }
     main .container2 {
         left: 180px;
@@ -845,10 +852,10 @@ label{
         margin-left: 30px;
     }
     .imagens {
-        margin: 950px 0px 20px 73px;
+        margin: 950px 0px 20px 43px;
     }
     .copy {
-        margin-left: 168px;
+        margin-left: 138px;
     }
     main .inicial {
         height: 164vh;
@@ -895,27 +902,33 @@ label{
 
 @media only screen and (max-width: 440px) {
     .botaotop {
-        margin: 14px 5px 5px 235px;
+        margin: 15px 5px 15px 191px;
     }
     .botaotop a {
-        padding: 16px 16px;
-        font-size: 18px;
+    padding: 16px 16px;
+    font-size: 15px;
     }
     main .container2 {
-        left: 103px;
+        left: 80px;
     }
     .shield, .support, .mouse {
         padding: 47px;
-        margin: 79px 25px 0px 0px;
+        margin: 25px 4px 0px 55px;
+    }
+    .imagem1, .imagem2, .imagem3 {
+        display: block;
     }
     .margem {
         padding-left: 0px;
-        text-align: left;
+        text-align: center;
+    }
+    .container5 h1 {
+        padding: 0px 5px 50px;
     }
     .primeiraSessao, .segundaSessao, .terceiraSessao, .quartaSessao {
-        margin-left: 45px;
+        margin-left: 20px;
         width: 291px;
-        height: 259px;
+        height: 259px;    
     }
     .sessoes h1 {
         font-size: 27px;
@@ -923,17 +936,24 @@ label{
     .sessoes p {
         font-size: 19px;
     }
+    .finalPage h1 {
+        padding: 0px;
+        font-size: 25px;
+    }
+    fieldset {
+        padding: 11px 25px 25px 25px;
+        margin-left: 10px;
+    }
     #loremIpsum {
-        margin: 10px 22px;
-        padding: 15px 79px;
+        margin: 1px 0px;
+        padding: 11px 55px;
     }
     label {
-        margin: 23px;
-        color: #6e6e6e;
+        margin: 0px;
     }
     .botao4 {
-        margin-left: 23px;
-        padding: 16px 92px;
+        margin-left: 0px;
+        padding: 8px 50px;
     }
     .imagens {
         margin: 950px 0px 20px 19px;
